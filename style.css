@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+}
+
+#calcContainer {
+    display: inline-block;
+    text-align: center;
+    border: solid black 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 560px;
+}
+#displayScreen {
+    height: 60px;
+    border: solid orange 2px;
+    overflow: hidden;
+}
+
+p {
+    padding-top: 15.5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 0;
+    font-size: 25px;
+}
+
+#buttonsContainer {
+    padding: 35px 20px 20px;
+    border: solid orange 2px;
+    height: 437px;
+    
+}
+
+.standard {
+    -webkit-appearance: none;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    padding: 0px;
+    border-radius: 20px;
+    outline: none;
+}
+
+#clearButton {
+    -webkit-appearance: none;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(158, 25, 25);
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+}
+
+#additionButton, #subtractionButton, #divisionButton, #multiplicationButton, #squarertButton {
+    background-color: orange;
+}
+
+#equalsButton {
+    background-color: rgb(40, 158, 10);
+    color: white;
+    width: 142px;
+}
+
+#backButton {
+    background-color: rgb(61, 56, 56);
+    color: white;
+}
+h1 {
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
